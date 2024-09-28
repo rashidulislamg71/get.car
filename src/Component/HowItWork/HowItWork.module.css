@@ -1,0 +1,94 @@
+
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.how_it_work_container{
+    background:#fff;
+
+}
+
+.how_it_work_inner_content{
+    padding:80px 80px 150px 80px;
+    text-align: center;
+    position: relative;
+}
+
+.how_it_work_title{
+
+}
+.how_it_work_title h4{
+    color: tomato;
+}
+.how_it_work_title h2{
+    font-size: 33px;
+}
+
+.single_how_it_work{
+    width: 300px;
+    margin: 60px 0px 0px 0px;
+}
+
+.how_it_work_icon{
+    width: 80px;
+    height: 80px;
+    background: rgba(228, 185, 177, 0.199);
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.car_icon{
+    background: tomato;
+   
+}
+.car_icon span{
+    color: #fff !important;
+}
+
+.how_it_work_icon span{
+    font-size: 60px;
+    display: flex;
+    color: rgba(255, 99, 71, 0.938);
+}
+
+
+.how_it_work_text h3{
+    margin: -10px 0px 10px;
+    font-size: 24px;
+    color: #000000ea;
+    font-weight: 800;
+}
+.how_it_work_text p{
+    font-size: 14px;
+}
+
+.top_arrow{
+    position: absolute;
+    top: 215px;
+    left: 357px;
+}
+.down_arrow{
+    position: absolute;
+    bottom: 75px;
+    right: 370px;
+}
+
+@media screen and (max-width:833px) {
+    .top_arrow{
+       display: none;
+    }
+    .down_arrow{
+      display: none;
+    }
+}
+@media screen and (max-width:479px) {
+    .how_it_work_inner_content{
+        padding: 50px 20px;
+    }
+}
