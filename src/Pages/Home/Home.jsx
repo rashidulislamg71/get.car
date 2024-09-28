@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../../Component/Hero/Hero';
-import HomeAbout from '../../Component/Home_About/HomeAbout';
+import HomeAbout from '../../Component/HomeAbout/HomeAbout';
 
 const Home = () => {
     return (
