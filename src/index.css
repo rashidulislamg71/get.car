@@ -4,16 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* font-family: "Nunito", */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 body{
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  "Nunito", sans-serif;
   background: #ece8e8da;
 }
