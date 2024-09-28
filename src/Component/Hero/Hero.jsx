@@ -34,17 +34,17 @@ const Hero = () => {
       cssMode={true}
       navigation={true}
       pagination={false}
-      //   autoplay={{
-      //     delay: 4000,
-      //     disableOnInteraction: false,
-      //   }}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
       modules={[Navigation, Pagination, Autoplay]}
       className="mySwiper"
     >
-      <SwiperSlide>
+        <SwiperSlide>
         <div className={`${styles.hero_single_slider}`}>
           <div className={`${styles.slider_img}`}>
-            <img src={banner_2} alt="Car 1" />
+            <img src={banner_3} alt="Car 2" />
           </div>
           <div className={`${styles.hero_text}`}>
             <h2>Experience Luxury on Wheels</h2>
@@ -64,7 +64,7 @@ const Hero = () => {
       <SwiperSlide>
         <div className={`${styles.hero_single_slider}`}>
           <div className={`${styles.slider_img}`}>
-            <img src={banner_3} alt="Car 2" />
+            <img src={banner_2} alt="Car 1" />
           </div>
           <div className={`${styles.hero_text}`}>
             <h2>Experience Luxury on Wheels</h2>

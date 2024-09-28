@@ -17,15 +17,13 @@ const Header = () => {
       <div className={`${styles.flex} ${styles.header_container}`}>
         <div className={`${styles.flex} ${styles.header_contact_container}`}>
           <p className={`${styles.flex} ${styles.header_contact}`}>
-            {" "}
             <span>
-              {" "}
               <MdOutlinePhone />
             </span>
             <a href="tel:+4733378901">+47 333 78 901</a>
           </p>
           <p className={`${styles.flex} ${styles.header_contact}`}>
-            {" "}
+      
             <span>
               <MdOutlineMarkEmailRead />
             </span>
@@ -36,7 +34,6 @@ const Header = () => {
         <div className={`${styles.flex} ${styles.header_search}`}>
           <input id={styles.search} type="search" placeholder="Search More Cars" />{" "}
           <span>
-            {" "}
             <FiSearch />
           </span>
         </div>
@@ -47,7 +44,7 @@ const Header = () => {
           <div className={`${styles.flex} ${styles.select_language}`}>
             <span>
               <CiFlag1 />
-            </span>{" "}
+            </span>
             <p>EN</p>
             <span className={styles.lang_arrow}>
               <IoIosArrowDown />

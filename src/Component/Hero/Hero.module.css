@@ -5,11 +5,8 @@
   gap: 20px;
 }
 
-
 .hero_single_slider {
   position: relative;
-}
-.slider_img img {
 }
 
 .hero_text {
@@ -52,6 +49,7 @@
   cursor: pointer;
   border-radius: 2px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #ffff;
 }
 
 .hero_btns .explore_more_btn {
@@ -66,13 +64,15 @@
 }
 
 .hero_btns .get_now_btn {
-  border: 1px solid;
+  border: 1px solid rgba(128, 128, 128, 0.788);
   transition: all 0.7s ease;
+  background: rgba(128, 128, 128, 0.788);
 }
 
 .hero_btns .get_now_btn:hover {
-  background: rgba(128, 128, 128, 0.788);
+  background: none;
   border: 1px solid rgba(128, 128, 128, 0.788);
+  color: rgb(180, 179, 131);
 }
 
 @media screen and (max-width: 1023px) {
@@ -93,7 +93,7 @@
   }
 }
 
- @media screen and (max-width: 833px) {
+@media screen and (max-width: 833px) {
   .hero_text {
     transform: translate(-20%, -13%);
   }
@@ -107,9 +107,9 @@
   .hero_text i {
     margin: 20px 0px;
   }
-} 
+}
 
- @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .hero_text h2 {
     font-size: 20px;
     margin-bottom: 15px;
@@ -120,42 +120,32 @@
   .hero_text i {
     margin: 0px 0px;
   }
-} 
- @media screen and (max-width: 479px) {
+}
+@media screen and (max-width: 479px) {
+  .hero_text {
+    top: 5%;
+    left: 5%;
+    transform: translate(0%, 5%);
+    max-width: 100%;
+  }
+  .hero_text h2 {
+    display: none;
+  }
+  .hero_text h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .hero_text i {
+    margin: 10px 0px;
+    font-size: 18px;
+  }
+  .hero_text h3 {
+    font-size: 20px;
+  }
 
-    .hero_text {
-        top: 5%;
-        left: 5%;
-        transform: translate(0%, 5%);
-        max-width: 100%;
-      }
-      .hero_text h2 {
-        display: none;
-      }
-      .hero_text h1 {
-        font-size: 25px;
-        font-weight: 600;
-        line-height: 25px;
-      }
-      .hero_text i {
-        margin: 10px 0px;
-        font-size: 18px;
-      }
-      .hero_text h3 {
-        font-size: 20px;
-      }
-      
-     
-      .hero_btns button {
-        padding: 4px 20px;
-        font-size:17px;
-      }
-      
-   
-     
-} 
-
-
-
-
-
+  .hero_btns button {
+    padding: 4px 20px;
+    font-size: 17px;
+  }
+}
