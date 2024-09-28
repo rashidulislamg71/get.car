@@ -9,60 +9,61 @@ import { CiFlag1 } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 
+import styles from "./Header.module.css";
+
 const Header = () => {
   return (
-    <header className="flex justify-between items-center bg-white p-5">
-      <div className="flex gap-4 justify-center items-center">
-        <p className="flex gap-1 justify-center items-center">
-          {" "}
-          <span>
+    <header className={` ${styles.header_styles}`}>
+      <div className={`${styles.flex} ${styles.header_container}`}>
+        <div className={`${styles.flex} ${styles.header_contact_container}`}>
+          <p className={`${styles.flex} ${styles.header_contact}`}>
             {" "}
-            <MdOutlinePhone />
-          </span>
-          <a href="tel:+4733378901">+47 333 78 901</a>
-        </p>
-        <p className="flex gap-1 justify-center items-center">
-          {" "}
-          <span>
-            <MdOutlineMarkEmailRead />
-          </span>{" "}
-          <a href="mailto:get.car@gmail.com">get.car@gmail.com </a>
-        </p>
-        <p className="flex gap-1 justify-center items-center">
-          <span>
-            <MdAccessTime />
-          </span>{" "}
-          Sun-Fri : 10:00 AM - 6:00 PM
-        </p>
-      </div>
+            <span>
+              {" "}
+              <MdOutlinePhone />
+            </span>
+            <a href="tel:+4733378901">+47 333 78 901</a>
+          </p>
+          <p className={`${styles.flex} ${styles.header_contact}`}>
+            {" "}
+            <span>
+              <MdOutlineMarkEmailRead />
+            </span>
+            <a href="mailto:get.car@gmail.com">get.car@gmail.com </a>
+          </p>
+        </div>
 
-      <div className="flex gap-1 justify-center items-center">
-        <div className="flex">
-          <input type="search" placeholder="Search More Cars" />{" "}
+        <div className={`${styles.flex} ${styles.header_search}`}>
+          <input id={styles.search} type="search" placeholder="Search More Cars" />{" "}
           <span>
             {" "}
             <FiSearch />
           </span>
-          <p className="flex">
+        </div>
+
+        <div
+          className={`${styles.flex} ${styles.header_languag_account_container}`}
+        >
+          <div className={`${styles.flex} ${styles.select_language}`}>
             <span>
               <CiFlag1 />
             </span>{" "}
-            EN{" "}
-            <span>
+            <p>EN</p>
+            <span className={styles.lang_arrow}>
               <IoIosArrowDown />
             </span>
-          </p>
-        </div>
+          </div>
 
-        <div className="flex">
-          <ul className="flex justify-center gap-4">
-            <li>
-              <NavLink to="/log-in">Log In</NavLink>
-            </li>
-            <li>
-              <NavLink to="/sign-up">Sign Up</NavLink>
-            </li>
-          </ul>
+          <div className={`${styles.flex} ${styles.header_account}`}>
+            <ul className={`${styles.flex}`}>
+              <li>
+                <NavLink to="/log-in">Log In</NavLink>
+              </li>
+              <li>
+                <NavLink to="/sign-up">Sign Up</NavLink>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
