@@ -10,6 +10,7 @@ import SignUp from "../Pages/Login-SignUp/SignUp";
 import NotFound from "../Pages/PageNotFound/NotFound";
 import Support from "../Pages/Support/Support";
 import Cart from "../Component/Cart/Cart";
+import News from "../Pages/News/News";
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
             {
                 path: "/cars",
                 element: <Cars />
+            },
+            {
+                path: "/news",
+                element: <News />
             },
             {
                 path: "/about",

@@ -1,0 +1,161 @@
+.flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.hero_single_slider {
+  position: relative;
+}
+.slider_img img {
+}
+
+.hero_text {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-20%, 0%);
+  z-index: 1;
+  color: #fff;
+  max-width: 700px;
+}
+.hero_text h2 {
+  font-size: 30px;
+  color: goldenrod;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.534);
+  margin-bottom: 20px;
+}
+.hero_text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.hero_text i {
+  margin: 40px 0px;
+  font-size: 20px;
+}
+.hero_text h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(72, 185, 7);
+  margin-left: -15px;
+}
+
+.hero_btns {
+}
+
+.hero_btns button {
+  padding: 5px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hero_btns .explore_more_btn {
+  background: tomato;
+  border: 1px solid tomato;
+  transition: all 0.7s ease;
+}
+
+.hero_btns .explore_more_btn:hover {
+  background: rgba(128, 128, 128, 0.788);
+  border: 1px solid rgba(128, 128, 128, 0.788);
+}
+
+.hero_btns .get_now_btn {
+  border: 1px solid;
+  transition: all 0.7s ease;
+}
+
+.hero_btns .get_now_btn:hover {
+  background: rgba(128, 128, 128, 0.788);
+  border: 1px solid rgba(128, 128, 128, 0.788);
+}
+
+@media screen and (max-width: 1023px) {
+  .hero_text {
+    transform: translate(-20%, -13%);
+    max-width: 700px;
+  }
+  .hero_text h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .hero_text h1 {
+    font-size: 40px;
+  }
+  .hero_text i {
+    margin: 35px 0px;
+    font-size: 20px;
+  }
+}
+
+ @media screen and (max-width: 833px) {
+  .hero_text {
+    transform: translate(-20%, -13%);
+  }
+  .hero_text h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .hero_text h1 {
+    font-size: 35px;
+  }
+  .hero_text i {
+    margin: 20px 0px;
+  }
+} 
+
+ @media screen and (max-width: 767px) {
+  .hero_text h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .hero_text h1 {
+    font-size: 30px;
+  }
+  .hero_text i {
+    margin: 0px 0px;
+  }
+} 
+ @media screen and (max-width: 479px) {
+
+    .hero_text {
+        top: 5%;
+        left: 5%;
+        transform: translate(0%, 5%);
+        max-width: 100%;
+      }
+      .hero_text h2 {
+        display: none;
+      }
+      .hero_text h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 25px;
+      }
+      .hero_text i {
+        margin: 10px 0px;
+        font-size: 18px;
+      }
+      .hero_text h3 {
+        font-size: 20px;
+      }
+      
+     
+      .hero_btns button {
+        padding: 4px 20px;
+        font-size:17px;
+      }
+      
+   
+     
+} 
+
+
+
+
+

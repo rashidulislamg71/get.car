@@ -63,6 +63,16 @@ const NavBar = () => {
                 onClick={closeMenuHandeling}
                 className={`${({ isActiv }) =>
                   isActiv ? styles.active : " "}`}
+                to="/news"
+              >
+                News
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={closeMenuHandeling}
+                className={`${({ isActiv }) =>
+                  isActiv ? styles.active : " "}`}
                 to="/about"
               >
                 About Us
