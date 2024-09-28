@@ -1,0 +1,85 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.homeNewOffers_container {
+  background: rgb(242, 242, 242);
+}
+
+.homeNewOffers_inner_content {
+  padding: 100px 0px 100px 80px;
+}
+
+.homeNewOffers_text {
+  flex: 1;
+}
+.homeNewOffers_text h4 {
+  color: tomato;
+}
+
+.homeNewOffers_text p {
+  margin: 20px 0px;
+  font-size: 16px;
+}
+.homeNewOffers_text ul li {
+  margin: 0px 0px 0px 40px;
+  font-size: 15px;
+}
+
+.homeNewOffers_text .offerBtns {
+  justify-content: start;
+  margin: 20px 0px 0px 0px;
+  outline: none;
+}
+
+.offer_btn {
+  cursor: pointer;
+  transition: all 0.7s ease;
+  padding: 5px 20px;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.507) 0px 4px 12px;
+}
+
+.offerBtns .offer_submit_btn {
+  background: tomato;
+  border: 1px solid tomato;
+}
+
+.offerBtns .offer_submit_btn:hover {
+  background: rgba(128, 128, 128, 0.788);
+  border: 1px solid rgba(128, 128, 128, 0.788);
+}
+
+.offerBtns .offer_view_slot_btn {
+  border: 1px solid rgba(128, 128, 128, 0.788);
+  transition: all 0.7s ease;
+  background: rgba(128, 128, 128, 0.788);
+}
+
+.offerBtns .offer_view_slot_btn:hover {
+  background: none;
+  border: 1px solid rgba(128, 128, 128, 0.788);
+  color: rgb(36, 36, 33);
+}
+
+.homeNewOffers_img {
+  flex: 1;
+}
+
+@media screen and (max-width: 479px) {
+  .homeNewOffers_inner_content {
+    padding: 60px 20px;
+  }
+
+  .homeNewOffers_img img{
+    max-width: 320px;
+    margin-top: 20px;
+  }
+}

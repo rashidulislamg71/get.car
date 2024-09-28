@@ -1,0 +1,50 @@
+/* StatsSection.module.css */
+
+.statsContainer {
+  border-bottom: 2px dashed rgba(128, 128, 128, 0.356);
+  background: rgb(242, 242, 242);
+}
+
+.statsInnerContent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 50px ;
+}
+
+.statBox {
+  margin: 10px;
+}
+
+.statNumber {
+  font-size: 40px;
+}
+
+.statLabel {
+  font-weight: 600;
+  color: #ff4500;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .statsContainer {
+    flex-direction: column;
+  }
+
+  .statNumber {
+    font-size: 2rem;
+  }
+
+  .statLabel {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and(max-width:479px) {
+  .statsInnerContent{
+    flex-direction: column;
+    padding: 50px ;
+  }
+}
