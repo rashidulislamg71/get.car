@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./HomeAbout.module.css";
-import homeAbout from "../../assets/images/HomeAboutImg/HomeAboutImg.png";
+import homeAbout from "../../assets/images/HomeAboutImg/homeAboutImg.png";
 import Signature from "../../assets/images/HomeAboutImg/Signature.png";
 
 
