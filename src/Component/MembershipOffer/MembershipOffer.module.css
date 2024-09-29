@@ -1,0 +1,48 @@
+.membershipOfferContainer {
+  background: linear-gradient(#000000ab, #000000ab),
+    url(../../assets/images/membershi_img/membershi_img.jpg);
+  padding: 100px 0px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.membershipOffer_content {
+  text-align: center;
+  color: #fff;
+  padding:15px;
+}
+.membershipOffer_content h1 {
+  font-size: 45px;
+  line-height: 50px;
+}
+.membershipOffer_content h1 span {
+  color: tomato;
+  font-size: 50px;
+}
+.membershipOffer_content p {
+  color: gainsboro;
+  margin: 0px 0px 30px 0px;
+}
+.membershipOffer_content .take_memebership {
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: rgb(224, 78, 52);
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 2px 2px 15px rgba(233, 215, 212, 0.685);
+  transition: all 0.7s ease;
+}
+
+.membershipOffer_content .take_memebership:hover{
+    transform: translateY(-6px);
+
+}
+
+.aa {
+  height: 100vh;
+}

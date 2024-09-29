@@ -4,6 +4,7 @@ import HomeAbout from '../../Component/HomeAbout/HomeAbout';
 import HowItWork from '../../Component/HowItWork/HowItWork';
 import NewOffers from '../../Component/NewOffers/NewOffers';
 import StatsSection from '../../Component/StatsSection/StatsSection';
+import MembershipOffer from '../../Component/MembershipOffer/MembershipOffer';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <HowItWork />
             <StatsSection />
             <NewOffers />
+            <MembershipOffer />
         </div>
     );
 };
