@@ -10,7 +10,7 @@ const MembershipOffer = () => {
                     <h1><span>Take 20%</span> Off</h1>
                     <h1>Your First Membership.</h1>
                     <p>This discount is vaild until December 2024. Terms and conditions apply.</p>
-                    <button className={styles.take_memebership}>Take Membership</button>
+                    <button className={styles.take_memebershipBtn}>Take Membership</button>
                 </div>
 
             </div> 
