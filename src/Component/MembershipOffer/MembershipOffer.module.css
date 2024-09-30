@@ -25,7 +25,7 @@
   color: gainsboro;
   margin: 0px 0px 30px 0px;
 }
-.membershipOffer_content .take_memebershipBtn {
+ .take_memebershipBtn {
   padding: 8px 20px;
   border: none;
   outline: none;
@@ -38,11 +38,8 @@
   transition: all 0.7s ease;
 }
 
-.membershipOffer_content .take_memebership:hover{
-    transform: translateY(-6px);
+.take_memebershipBtn:hover{
+    transform: translateY(6px);
 
 }
 
-.aa {
-  height: 100vh;
-}

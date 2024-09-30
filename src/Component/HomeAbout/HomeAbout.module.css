@@ -10,7 +10,7 @@
 }
 
 .homeAbout_inner_content {
-  padding: 50px 20px;
+  padding: 50px 15px;
 }
 
 .homeAbout_img {
@@ -42,6 +42,7 @@
   .homeAbout_img img {
     max-width: 900px;
   }
+ 
 }
 @media screen and (max-width: 834px) {
   .homeAbout_inner_content {
@@ -51,6 +52,18 @@
 
 @media screen and (max-width: 479px) {
   .homeAbout_img img {
-    max-width: 500px;
+    max-width: 100%;
+  }
+
+  .homeAbout_text {
+    padding: 0 10px;
+  }
+
+  .homeAbout_text h2 {
+    font-size: 28px; /* ছোট স্ক্রিনে হেডিং সাইজ ছোট হবে */
+  }
+
+  .homeAbout_text img {
+    width: 150px; /* ছোট স্ক্রিনে সিগনেচার ইমেজ সাইজ ছোট হবে */
   }
 }

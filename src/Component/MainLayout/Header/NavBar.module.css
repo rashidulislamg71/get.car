@@ -47,9 +47,10 @@ header {
   color: rgb(2, 170, 2);
 }
 
-.menu .cart{
-  font-size: 30px;
+.menu a.cart{
+  font-size: 25px;
   margin: 12px 0px 0px 0px;
+  color: #000;
 }
 
 .menu .buyNowBtn {

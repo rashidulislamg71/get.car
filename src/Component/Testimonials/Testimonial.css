@@ -1,0 +1,111 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .testimonials_container {
+    background: linear-gradient(#00000093, #00000091),
+      url(../../assets/images/Testimonials_img/testimonial-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .testimonials_inner_content {
+    padding: 100px 80px;
+  }
+  .testimonials_titles {
+    flex: 1;
+    color: #ffff;
+  }
+  .testimonials_titles h4 {
+    color: tomato;
+  }
+  .testimonials_titles h1 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+  .testimonials_titles button {
+    margin: 20px 0px;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 2px;
+    background: rgba(255, 99, 71, 0.432);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  .testimonials_titles button:hover {
+    transform: translate(10px) translateY(10px);
+  }
+  
+  .slider-container{
+    max-width: 700px;
+    height: auto;
+  }
+  
+  .testimonials_single_box {
+    max-width: 700px;
+    padding: 15px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .testimonials_single_box h2 {
+    font-size: 25px;
+    margin-top: 30px;
+    color: rgba(255, 217, 0, 0.918);
+  }
+  .testimonials_single_box p {
+    margin: 30px 0px 20px 0px;
+  }
+  .testimonials_img {
+    gap: 10px;
+    color: tomato;
+margin: 0px 0px 30px 0px;
+  }
+  .testimonials_img img {
+    width: 90px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  
+  .testimonials_img p {
+    margin: 0px;
+    color: #ffff;
+  }
+  
+
+  .slick-dots {
+    position: absolute;
+    bottom: 12px;
+    display: block;
+    width: 100%;
+    padding: 1px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li button:before {
+    font-size: 9px;
+  
+}
+
+
+  
+  
