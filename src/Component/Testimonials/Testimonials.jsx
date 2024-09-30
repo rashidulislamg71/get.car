@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import man from "../../assets/images/Testimonials_img/testimonial_man.jpg";
+import road from "../../assets/images/Testimonials_img/Road.png";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -20,6 +21,8 @@ const Testimonials = () => {
 
   return (
     <div className="testimonials_container">
+     
+
       <div className="flex testimonials_inner_content">
         <div className="testimonials_titles">
           <h4>Find out Now</h4>
