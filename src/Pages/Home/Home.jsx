@@ -6,6 +6,7 @@ import NewOffers from '../../Component/NewOffers/NewOffers';
 import StatsSection from '../../Component/StatsSection/StatsSection';
 import MembershipOffer from '../../Component/MembershipOffer/MembershipOffer';
 import Testimonials from '../../Component/Testimonials/Testimonials';
+import NewsLetter from '../../Component/NewsLetter/NewsLetter';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <NewOffers />
             <MembershipOffer />
             <Testimonials />
+            <NewsLetter />
         </div>
     );
 };
