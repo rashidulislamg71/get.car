@@ -1,0 +1,70 @@
+
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer_container{
+    background: #000;
+    color: #fff;
+}
+.footer_inner_content{}
+.footer_top{
+    padding-top: 60px;
+}
+.column ul li{
+    list-style: none;
+    display: flex;
+}
+
+.column ul li span{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.column ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.column_1{}
+.column_2{}
+
+.social_contact{
+   
+}
+
+.footer_bottom{
+    text-align: center;
+    padding: 20px 0px;
+}
+.footer_bottom h3{
+    margin: 0px 0px 0px -60px;
+    padding-top: 15px;
+    border-top: 1px solid gray;
+}
+.download_btn{
+    justify-content: center;
+}
+.download_btn button{
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px 0px 30px 0px;
+    box-shadow: 2px 2px 15px #ffffff6e;
+}
+.download_btn button a img{
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.footer_bottom p{
+    font-size: 15px;
+    color: gray;
+}
