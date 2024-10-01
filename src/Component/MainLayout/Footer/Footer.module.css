@@ -5,46 +5,66 @@
     justify-content: space-evenly;
     align-items: start;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
 }
 
 .footer_container{
-    background: #000;
+    background: #1b1919e7;
     color: #fff;
 }
-.footer_inner_content{}
+
 .footer_top{
     padding-top: 60px;
 }
+
 .column ul li{
     list-style: none;
     display: flex;
+    gap: 5px;
 }
 
 .column ul li span{
     display: flex;
     justify-content: start;
     align-items: center;
+    font-size: 13px;
 }
 .column ul li a{
     text-decoration: none;
     color: #fff;
+    font-size: 16px;
+    margin-top: 3px;
 }
 
-.column_1{}
-.column_2{}
+.column ul li a:hover{
+    color: tomato;
+}
+
+.column h2{
+    margin: 25px 0px 10px 0px;
+}
 
 .social_contact{
-   
+   margin-top: 10px;
+
+}
+
+.social_contact ul li a{
+   background: rgb(245, 243, 243);
+    padding: 5px;
+    display: flex;
+    border-radius: 50%;
+    color: rgb(10, 187, 157);
 }
 
 .footer_bottom{
     text-align: center;
     padding: 20px 0px;
+    margin-top: 30px;
 }
 .footer_bottom h3{
     margin: 0px 0px 0px -60px;
-    padding-top: 15px;
+    padding-top: 30px;
     border-top: 1px solid gray;
 }
 .download_btn{
@@ -58,6 +78,10 @@
     margin: 5px 0px 30px 0px;
     box-shadow: 2px 2px 15px #ffffff6e;
 }
+
+.download_btn button:hover{
+    box-shadow: 2px 2px 16px rgb(85, 201, 195);
+}
 .download_btn button a img{
     width: 120px;
     height: 30px;
@@ -67,4 +91,11 @@
 .footer_bottom p{
     font-size: 15px;
     color: gray;
+}
+
+@media screen and (max-width:480px) {
+    .footer_top{
+        flex-direction: column;
+        padding: 50px ;
+    }
 }

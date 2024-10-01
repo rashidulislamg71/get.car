@@ -82,38 +82,38 @@ const Footer = () => {
               <li>
                 <span>
                   <HiChevronDoubleRight />
+                </span>
                   <a href="">About us</a>
-                </span>
               </li>
               <li>
                 <span>
                   <HiChevronDoubleRight />
+                </span>
                   <a href="">Blog</a>
-                </span>
               </li>
               <li>
                 <span>
                   <HiChevronDoubleRight />
+                </span>
                   <a href="">Shop</a>
-                </span>
               </li>
               <li>
                 <span>
                   <HiChevronDoubleRight />
+                </span>
                   <a href="">Wishlist</a>
-                </span>
               </li>
               <li>
                 <span>
                   <HiChevronDoubleRight />
+                </span>
                   <a href="">FAQ</a>
-                </span>
               </li>
               <li>
                 <span>
                   <HiChevronDoubleRight />
-                  <a href="">Pricing</a>
                 </span>
+                  <a href="">Pricing</a>
               </li>
             </ul>
           </div>
@@ -122,18 +122,21 @@ const Footer = () => {
             <ul>
               <li>
                 <span>
-                  <HiChevronDoubleRight /> <a href="">My account</a>
+                  <HiChevronDoubleRight />
                 </span>
+                <a href="">My account</a>
               </li>
               <li>
                 <span>
-                  <HiChevronDoubleRight /> <a href="">Dashboard</a>
+                  <HiChevronDoubleRight />
                 </span>
+                <a href="">Dashboard</a>
               </li>
               <li>
                 <span>
-                  <HiChevronDoubleRight /> <a href="">Contact</a>
+                  <HiChevronDoubleRight />
                 </span>
+                <a href="">Contact</a>
               </li>
               <div className={`${styles.flex} ${styles.social_contact}`}>
                 <ul className={styles.flex}>

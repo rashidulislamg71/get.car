@@ -11,13 +11,13 @@ import NewsLetter from '../../Component/NewsLetter/NewsLetter';
 const Home = () => {
     return (
         <div>
-            <Hero />
+            {/* <Hero />
             <HomeAbout />
             <HowItWork />
             <StatsSection />
             <NewOffers />
             <MembershipOffer />
-            <Testimonials />
+            <Testimonials /> */}
             <NewsLetter />
         </div>
     );
