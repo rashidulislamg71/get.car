@@ -7,17 +7,19 @@ import StatsSection from '../../Component/StatsSection/StatsSection';
 import MembershipOffer from '../../Component/MembershipOffer/MembershipOffer';
 import Testimonials from '../../Component/Testimonials/Testimonials';
 import NewsLetter from '../../Component/NewsLetter/NewsLetter';
+import Cars from '../../Component/Cars/Cars';
 
 const Home = () => {
     return (
         <div>
-            {/* <Hero />
+            <Hero />
+            <Cars />
             <HomeAbout />
             <HowItWork />
             <StatsSection />
             <NewOffers />
             <MembershipOffer />
-            <Testimonials /> */}
+            <Testimonials />
             <NewsLetter />
         </div>
     );
