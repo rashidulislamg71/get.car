@@ -1,0 +1,39 @@
+
+.investors_contianer{
+    text-align: center;
+    background: #fff;
+}
+.investors_inner_content{
+    padding: 100px 0px;
+}
+.investors_inner_content h2{
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+
+.investors{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.single_investor{
+  
+}
+.single_investor img{
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    padding: 1px 10px;
+    width: 120px;
+    height: auto;
+    filter: drop-shadow(2px 2px 10px rgba(7, 17, 15, 0.822));
+   transition: all .3s ease;
+}
+
+.single_investor img:hover{
+    filter: none;
+}

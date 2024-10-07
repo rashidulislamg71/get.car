@@ -4,13 +4,13 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Home from "../Pages/Home/Home";
 import Cars from "../Pages/Products/Cars";
-import About from "../Pages/About/About";
 import Login from "../Pages/Login-SignUp/Login";
 import SignUp from "../Pages/Login-SignUp/SignUp";
 import NotFound from "../Pages/PageNotFound/NotFound";
 import Support from "../Pages/Support/Support";
 import Cart from "../Component/Cart/Cart";
 import News from "../Pages/News/News";
+import About_us from "../Pages/About/About_us";
 
 
 const router = createBrowserRouter([
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/about",
-                element: <About />
+                element: <About_us />
             },
             {
                 path: "/support",
