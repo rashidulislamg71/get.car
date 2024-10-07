@@ -1,0 +1,103 @@
+
+
+.cars_container{
+    padding: 100px 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.title_btn{
+    justify-content: space-between;
+    margin: 0px 0px 80px 0px;
+}
+
+ .carsTitle{
+
+}
+.carsBtn{
+    gap: 0px;
+    position: relative;
+}
+
+.carsBtn button{
+    position: relative;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(4, 34, 54);
+    border-right:  3px solid black;
+    font-weight: 500;
+    padding: 0px 20px ;
+    background-color: transparent;
+    transition:  all .3s ease;
+}
+
+.carsBtn button:hover{
+    transform: translateY(-5px);
+    color:teal;
+}
+
+.cars_content li{
+    list-style: none;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cars_content img{
+    width: 280px;
+    height: 180px;
+    transition: all .6s ease;
+    
+}
+
+.cars_content li:hover img{
+    transform: scale(1.1);
+}
+
+.cart_details{
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.cart_details h2{
+    cursor: pointer;
+    width: fit-content;
+    transition: all .3s ease;
+    font-size: 22px;
+}
+.cart_details h2:hover{
+    color: tomato;
+}
+.cart_details .price{
+   color: rgb(6, 145, 6);
+   font-weight: bold;
+}
+
+.cart_seeDetails_Btn{
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.cart_seeDetails_Btn button{
+    padding: 2px 10px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgb(179, 179, 179);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: rgb(59, 59, 59);
+    transition: all .5s ease;
+}
+
+.cart_seeDetails_Btn button:hover{
+    background: rgba(255, 99, 71, 0.849);
+    color: #fff;
+}
