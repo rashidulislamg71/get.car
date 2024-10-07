@@ -17,9 +17,7 @@
     margin: 0px 0px 80px 0px;
 }
 
- .carsTitle{
-
-}
+ 
 .carsBtn{
     gap: 0px;
     position: relative;
@@ -100,4 +98,25 @@
 .cart_seeDetails_Btn button:hover{
     background: rgba(255, 99, 71, 0.849);
     color: #fff;
+}
+
+@media screen and (max-width:480px){
+    .cars_container{
+        padding: 60px 15px;
+    }
+
+    .title_btn{
+        justify-content: center;
+        margin: 0px 0px 50px 0px;
+    }
+
+    button.toyota{
+        border: none;
+    }
+    
+    .cars_content img{
+        width: 300px;
+        
+    }
+    
 }

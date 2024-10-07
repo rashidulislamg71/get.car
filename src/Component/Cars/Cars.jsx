@@ -44,7 +44,7 @@ const Cars = () => {
         <div className={`${styles.flex} ${styles.carsBtn}`}>
           <button onClick={handleShowBMW}>BMW</button>
           <button onClick={handleShowRollsRoyce}>Rolls Royce</button>
-          <button onClick={handleShowToyota}>Toyota</button>
+          <button className={styles.toyota} onClick={handleShowToyota}>Toyota</button>
         </div>
       </div>
 
