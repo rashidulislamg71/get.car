@@ -1,0 +1,138 @@
+
+
+
+  /* Banner section */
+  .banner {
+    background: url('https://example.com/banner.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+  }
+  
+
+.support_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: #ffff;
+  }
+  
+  .support_form_container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .support_form_container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    padding: 0px 0px 0px 50px;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 50px;
+  }
+  
+  .form_group {
+    flex: 1 1 45%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  div.massage{
+    display: block;
+  }
+  
+  .form_group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form_group input,
+  .form_group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form_group textarea {
+    resize: vertical;
+  }
+  
+  .submitBtn {
+    display: block;
+    background-color: #ff4c00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitBtn:hover {
+    background-color: #e64500;
+  }
+  
+  .contact_info_container {
+    background-color: #333;
+    color: #ffffffe5;
+    padding: 40px 20px;
+    flex: 0.5;
+  }
+  
+  .contact_info_container h2 {
+    font-size: 30px;
+    color: #f50808;
+  }
+  
+  .single_contact_info{
+    border-bottom: 2px dashed rgba(128, 128, 128, 0.322);
+    padding: 20px 0px;
+  }
+  .single_contact_info h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .single_contact_info a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .4s ease;
+  }
+
+  .single_contact_info a:hover{
+    color: #a0a0a0;
+  }
+
+  .single_contact_info p{}
+
+  .info_email
+  
+  .contact_info_container strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
