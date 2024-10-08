@@ -28,8 +28,8 @@ const Support = () => {
         <h1>Contact Us</h1>
         <p>We are here to help. Reach out to us anytime!</p>
       </div>
-
-      <div className={styles.support_container}>
+<div className={styles.support_details_info}>
+<div className={styles.support_container}>
         <div className={styles.support_form_container}>
           <h2>Send us a Message</h2>
           <form onSubmit={handleSubmit} className={styles.form}>
@@ -116,7 +116,7 @@ const Support = () => {
               <h3>
                 <strong>Email Address</strong>
               </h3>
-              <a href="mailto: officeget.car@gamil.com">get.car@gamil.com</a>
+              <a href="mailto: officeget.car@gamil.com">get.car@gamil.com</a> <br />
               <a href="mailto: officeget.car@gamil.com">
                 officeget.car@gamil.com
               </a>
@@ -162,6 +162,8 @@ const Support = () => {
           </div>
         </div>
       </div>
+</div>
+      
     </div>
   );
 };
