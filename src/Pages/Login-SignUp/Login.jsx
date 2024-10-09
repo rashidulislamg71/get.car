@@ -12,7 +12,7 @@ const Login = () => {
       <div className={styles.login_box}>
         <div data-aos="flip-up" className={styles.login_inner_content}>
           <div>
-            <h1>Welcome back</h1>
+            <h2>Welcome back</h2>
             <small>Login to the Dashboard</small>
             <p>
               Free Registration a New Account <button>SignUp</button>
