@@ -13,7 +13,7 @@ import CarDetails from '../../Component/CarDetails/CarDetails';
 const Home = () => {
     return (
         <div>
-            {/* <Hero />
+            <Hero />
             <Cars />
             <HomeAbout />
             <HowItWork />
@@ -21,8 +21,8 @@ const Home = () => {
             <NewOffers />
             <MembershipOffer />
             <Testimonials />
-            <NewsLetter /> */}
-            <CarDetails />
+            <NewsLetter />
+            {/* <CarDetails /> */}
         </div>
     );
 };
