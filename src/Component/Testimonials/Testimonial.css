@@ -153,6 +153,18 @@ button.slick-next:before {
   .testimonials_img p {
     margin: 0px;
   }
+
+  .slick-prev {
+    top: 210px;
+    left: 5px;
+    z-index: 100;
+}
+
+.slick-next {
+  top: 210px;
+  right: 5px;
+  z-index: 100;
+}
   
 }
 

@@ -103,6 +103,9 @@
 @media screen and (max-width:480px){
     .cars_container{
         padding: 60px 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .title_btn{

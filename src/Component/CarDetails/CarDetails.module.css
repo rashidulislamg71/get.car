@@ -1,0 +1,13 @@
+
+.carDetails_img {
+    cursor: zoom-in;
+  }
+  
+  .carDetails_img img {
+    width: 500px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carDetails_img img:hover {
+    transform: scale(1.5); /* Zoom effect */
+  }

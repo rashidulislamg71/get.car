@@ -8,6 +8,7 @@ import styles from "./Cars.module.css";
 const Cars = () => {
   const { bmw, rolls_royce, toyota, selectedProduct, setSelectedProduct } =
     useContext(ProductContext);
+    
   const [showRolls, setShowRolls] = useState(false);
   const [showToyota, setShowToyota] = useState(false);
 

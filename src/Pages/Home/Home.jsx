@@ -8,11 +8,12 @@ import MembershipOffer from '../../Component/MembershipOffer/MembershipOffer';
 import Testimonials from '../../Component/Testimonials/Testimonials';
 import NewsLetter from '../../Component/NewsLetter/NewsLetter';
 import Cars from '../../Component/Cars/Cars';
+import CarDetails from '../../Component/CarDetails/CarDetails';
 
 const Home = () => {
     return (
         <div>
-            <Hero />
+            {/* <Hero />
             <Cars />
             <HomeAbout />
             <HowItWork />
@@ -20,7 +21,8 @@ const Home = () => {
             <NewOffers />
             <MembershipOffer />
             <Testimonials />
-            <NewsLetter />
+            <NewsLetter /> */}
+            <CarDetails />
         </div>
     );
 };

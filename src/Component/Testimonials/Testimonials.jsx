@@ -39,9 +39,7 @@ const Testimonials = () => {
               <p>
                 "One of the aspects that impressed me the most was the diverse
                 range of vehicles available for auction. Whether you're in the
-                market for a sleek sedan, a robust SUV, or a vintage classic,
-                AutoBid has an impressive inventory that caters to all tastes
-                and preferences."
+                market for a sleek sedan, a robust SUV, or a vintage classic."
               </p>
               <div className="flex testimonials_img">
                 <img src={man} alt="Man" />
@@ -54,11 +52,9 @@ const Testimonials = () => {
             <div className="testimonials_single_box">
               <h2>"A Game-Changer in the Car Buying Arena"</h2>
               <p>
-                "One of the aspects that impressed me the most was the diverse
+              "One of the aspects that impressed me the most was the diverse
                 range of vehicles available for auction. Whether you're in the
-                market for a sleek sedan, a robust SUV, or a vintage classic,
-                AutoBid has an impressive inventory that caters to all tastes
-                and preferences."
+                market for a sleek sedan, a robust SUV, or a vintage classic."
               </p>
               <div className="flex testimonials_img">
                 <img src={man} alt="Man" />
@@ -71,11 +67,9 @@ const Testimonials = () => {
             <div className="testimonials_single_box">
               <h2>"A Game-Changer in the Car Buying Arena"</h2>
               <p>
-                "One of the aspects that impressed me the most was the diverse
+              "One of the aspects that impressed me the most was the diverse
                 range of vehicles available for auction. Whether you're in the
-                market for a sleek sedan, a robust SUV, or a vintage classic,
-                AutoBid has an impressive inventory that caters to all tastes
-                and preferences."
+                market for a sleek sedan, a robust SUV, or a vintage classic."
               </p>
               <div className="flex testimonials_img">
                 <img src={man} alt="Man" />
@@ -88,11 +82,9 @@ const Testimonials = () => {
             <div className="testimonials_single_box">
               <h2>"A Game-Changer in the Car Buying Arena"</h2>
               <p>
-                "One of the aspects that impressed me the most was the diverse
+              "One of the aspects that impressed me the most was the diverse
                 range of vehicles available for auction. Whether you're in the
-                market for a sleek sedan, a robust SUV, or a vintage classic,
-                AutoBid has an impressive inventory that caters to all tastes
-                and preferences."
+                market for a sleek sedan, a robust SUV, or a vintage classic."
               </p>
               <div className="flex testimonials_img">
                 <img src={man} alt="Man" />
