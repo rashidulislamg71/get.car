@@ -34,7 +34,7 @@ const Hero = () => {
       <Swiper
         spaceBetween={30}
         effect={"fade"}
-        navigation={true}
+        // navigation={true}
         autoplay={{
           delay: 6000,
           disableOnInteraction: false,

@@ -6,9 +6,16 @@ import { ProductContext } from "../GlobalContextAPI/GlobalContext";
 import styles from "./Cars.module.css";
 
 const Cars = () => {
-  const { bmw, rolls_royce, toyota, selectedProduct, setSelectedProduct } =
-    useContext(ProductContext);
-    
+  const {
+    bmw,
+    rolls_royce,
+    toyota,
+    selectedProduct,
+    setSelectedProduct,
+    cartCarHandler,
+    seeDeatilsHandler,
+  } = useContext(ProductContext);
+
   const [showRolls, setShowRolls] = useState(false);
   const [showToyota, setShowToyota] = useState(false);
 
@@ -45,23 +52,34 @@ const Cars = () => {
         <div className={`${styles.flex} ${styles.carsBtn}`}>
           <button onClick={handleShowBMW}>BMW</button>
           <button onClick={handleShowRollsRoyce}>Rolls Royce</button>
-          <button className={styles.toyota} onClick={handleShowToyota}>Toyota</button>
+          <button className={styles.toyota} onClick={handleShowToyota}>
+            Toyota
+          </button>
         </div>
       </div>
 
       <div className={`${styles.flex} ${styles.cars_content}`}>
         {selectedProduct.map((product) => (
           <li key={product.id}>
-            <img src={product.img} alt={product.name} />
+            <img src={product.img[0]} alt={product.name} />
             <div className={styles.cart_details}>
-            <h2>{product.name}</h2>
-            <p className={styles.price}> ${product.price}</p>
-            <div className={`${styles.flex} ${styles.cart_seeDetails_Btn}`}>
-            <button className={styles.addToCartBtn}>Add To Cart</button>
-            <button className={styles.seeDetails}>Details</button>
+              <h2>{product.name}</h2>
+              <p className={styles.price}> ${product.price}</p>
+              <div className={`${styles.flex} ${styles.cart_seeDetails_Btn}`}>
+                <button
+                  onClick={() => cartCarHandler(product)}
+                  className={styles.addToCartBtn}
+                >
+                  Add To Cart
+                </button>
+                <button
+                  onClick={() => seeDeatilsHandler(product)}
+                  className={styles.seeDetails}
+                >
+                  Details
+                </button>
+              </div>
             </div>
-            </div>
-            
           </li>
         ))}
       </div>
