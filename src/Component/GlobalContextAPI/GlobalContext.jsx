@@ -151,12 +151,12 @@ export const ProductProvider = ({ children }) => {
   const [selectedProduct, setSelectedProduct] = useState([]);
   const [cart, setCart] = useState([]);
   const [seeDetails, setSeeDetail] = useState([null]);
-
   console.log(cart)
 
   const bmw = [
     {
       id: 1,
+      band:"BMW",
       name: "BMW 8 Series",
       img: [
         bmw_8_series,
@@ -175,6 +175,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
       id: 2,
+      band:"BMW",
       name: "BMW 7 Series",
       img: [
         bmw_7_series,
@@ -195,6 +196,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
       id: 3,
+      band: "BMW",
       name: "BMW 3 Series",
       img: [
         bmw_3_series,
@@ -215,6 +217,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
       id: 4,
+      band: "BMW",
       name: "BMW X6",
       img: [
         bmw_X6,
@@ -235,6 +238,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
       id: 5,
+      band: "BMW",
       name: "BMW M3",
       img: [
         bmw_M3,
@@ -256,6 +260,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
       id: 6,
+      band: "BMW",
       name: "BMW Z6",
       img: [
         bmw_Z6,
@@ -276,6 +281,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
       id: 7,
+      band: "BMW",
       name: "BMW X1",
       img: [
         bmw_x1,
@@ -297,6 +303,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
       id: 8,
+      band: "BMW",
       name: "BMW i3",
       img: [
         bmw_i3,
@@ -320,6 +327,7 @@ export const ProductProvider = ({ children }) => {
   const rolls_royce = [
     {
         id: 1,
+        band:"Rolls Royce",
         name: "Dawn",
         img: [
           Dawn,
@@ -340,6 +348,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
         id: 2,
+        band:"Rolls Royce",
         name: "GTY",
         img:[
           GTY,
@@ -358,6 +367,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
         id: 3,
+        band:"Rolls Royce",
         name: "Cullinan",
         img: [
           Cullinan,
@@ -379,6 +389,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
         id: 4,
+        band:"Rolls Royce",
         name: "Ghost",
         img: [
           Ghost,
@@ -399,6 +410,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
         id: 5,
+        band:"Rolls Royce",
         name: "Phantom",
         img: [
           Phantom,
@@ -419,6 +431,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
         id: 6,
+        band:"Rolls Royce",
         name: "Phantom Extended",
         img: [
           Phantom_Extended,
@@ -440,6 +453,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
         id: 7,
+        band:"Rolls Royce",
         name: "Wraith",
         img: [
           Wraith,
@@ -459,6 +473,7 @@ export const ProductProvider = ({ children }) => {
     },
     {
         id: 8,
+        band:"Rolls Royce",
         name: "Ghost Extended",
         img: [
           Ghost_Extended,
@@ -485,6 +500,7 @@ export const ProductProvider = ({ children }) => {
 const toyota = [
   {
       id: 1,
+      band: "Toyota",
       name: "Toyota Avalon",
       img: [
         Avalon,
@@ -506,6 +522,7 @@ const toyota = [
   },
   {
       id: 2,
+      band: "Toyota",
       name: "Toyota Camry",
       img: [
         Camry,
@@ -525,6 +542,7 @@ const toyota = [
   },
   {
       id: 3,
+      band: "Toyota",
       name: "Toyota Highlander",
       img: [
         Highlander,
@@ -545,6 +563,7 @@ const toyota = [
   },
   {
       id: 4,
+      band: "Toyota",
       name: "Toyota Prius",
       img: [
         Prius,
@@ -565,6 +584,7 @@ const toyota = [
   },
   {
       id: 5,
+      band: "Toyota",
       name: "Toyota RAV4",
       img: [
         RAV4,
@@ -586,6 +606,7 @@ const toyota = [
   },
   {
       id: 6,
+      band: "Toyota",
       name: "Toyota Supra",
       img: [
         Supra,
@@ -607,6 +628,7 @@ const toyota = [
   },
   {
       id: 7,
+      band: "Toyota",
       name: "Toyota Yaris",
       img: [
       Yaris,
@@ -628,6 +650,7 @@ const toyota = [
   },
   {
       id: 8,
+      band: "Toyota",
       name: "Corolla",
       img: [
         corolla,

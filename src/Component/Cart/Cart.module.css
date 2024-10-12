@@ -1,9 +1,10 @@
 
 
-.cart_wrapper{
+
+
+.cart_wrapper {
   /* max-height: 600px; */
 }
-
 
 .flex {
   display: flex;
@@ -13,8 +14,8 @@
   flex-wrap: wrap;
 }
 
-.border{
-  margin:  40px 0px;
+.border {
+  margin: 40px 0px;
   text-align: center;
   font-size: 20px;
   color: rgb(0, 0, 0);
@@ -24,9 +25,32 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.cart_inner_content {
+.cart_container {
   padding: 80px;
 }
+.emty_cart_container{
+  flex-direction: column;
+  align-items: center;
+  line-height: 20px;
+}
+.emty_cart_container img{}
+.emty_cart_container h1{
+
+}
+.emty_cart_container button{
+  border: none;
+  background: transparent;
+  color: rgb(10, 143, 143);
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .1s ease;
+}
+
+.emty_cart_container button:hover{
+  color: rgb(11, 207, 207);
+}
+
 
 h1.cart_main_title {
   color: rgb(250, 49, 14);
@@ -120,10 +144,9 @@ h1.cart_main_title {
 }
 
 .summary_deatils_data p:nth-child(4),
-.summary_deatils_titles p:nth-child(4)
-{
+.summary_deatils_titles p:nth-child(4) {
   background: #bebcbc;
-  font-weight:bold;
+  font-weight: bold;
   margin-top: 10px;
 }
 
@@ -131,8 +154,6 @@ h1.cart_main_title {
   color: #024e3b;
   font-weight: bold;
 }
-
-
 
 .cart_adderss_and_payment {
   justify-content: center;
@@ -177,7 +198,7 @@ h1.cart_main_title {
   margin: 0px 0px -10px 0px;
 }
 
-.payment_method{
+.payment_method {
   background: #000000e0;
 }
 
@@ -208,13 +229,13 @@ h1.cart_main_title {
   align-items: center;
 }
 
-.confirm_order_btn{
+.confirm_order_btn {
   margin-top: 30px;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.confirm_order_btn button{
+.confirm_order_btn button {
   padding: 4px 30px;
   font-size: 17px;
   color: #fff;
@@ -226,24 +247,23 @@ h1.cart_main_title {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.confirm_order_btn button:hover{
+.confirm_order_btn button:hover {
   transform: translateY(-4px);
 }
 
-.confirm_order_btn button:active{
+.confirm_order_btn button:active {
   transform: scale(1.2);
 }
 
 @media screen and (max-width: 480px) {
-  .cart_wrapper h1{
+  .cart_wrapper h1 {
     text-align: center;
   }
 
-  h2{
+  h2 {
     text-align: center;
   }
-
-  .cart_inner_content {
+  .cart_container {
     padding: 50px 0px;
   }
   .address,
