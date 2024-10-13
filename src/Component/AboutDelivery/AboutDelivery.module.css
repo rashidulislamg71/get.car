@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.about_delivery_inner_content {
+  padding: 40px;
+}
+.single_about_delivery {
+  padding: 10px;
+  width: 309px;
+  flex-wrap: nowrap;
+  gap: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #ffff;
+}
+.single_about_delivery .icon span {
+  font-size: 60px;
+  display: flex;
+  padding: 5px;
+  border-radius: 10px;
+}
+.single_about_delivery .text {
+  border-left: 1px solid gray;
+  padding-left: 8px;
+}
+.single_about_delivery .text h3 {
+  color: rgb(235, 45, 11);
+}
+.single_about_delivery .text p {
+  font-size: 15px;
+  color: rgb(139, 139, 139);
+}
+
+@media screen and (max-width: 480px) {
+  .about_delivery_inner_content {
+    padding: 20px;
+  }
+}
