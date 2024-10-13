@@ -2,6 +2,7 @@
 
 .about_us_container{
     background: #ffff;
+    margin-top: 100px;
 }
 
 .about_us_banner{
@@ -10,6 +11,7 @@
     background-repeat:no-repeat;
     background-position: center;
     text-align: center;
+    
 }
 
 .about_us_banner h1{
@@ -69,20 +71,24 @@
 
 
 @media screen and (max-width: 480px) {
+
     .about_us_inner_content{
-        padding: 50px 20px;
+        padding: 50px 15px;
         gap: 30px;
     }
-
-    .about_us_img img{
-        max-width: 100%;
+    .about_us_banner{
+        padding: 160px 0px;
     }
     
     .stay_market h1{
         font-size: 90px;
     }
     
-    .stay_market div h3{
-        padding-bottom: 0px;
-    }
+   
+        .stay_market div h3{
+            padding-bottom: 0px;
+            font-size: 22px;
+        }
+     
+    
 }

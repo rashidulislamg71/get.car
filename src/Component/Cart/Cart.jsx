@@ -9,7 +9,7 @@ import { CiSquarePlus, CiSquareMinus } from "react-icons/ci";
 import { NavLink } from "react-router-dom";
 
 const Cart = () => {
-  const { cart } = useContext(ProductContext);
+  const { cart, deletCartSingleItemHandler } = useContext(ProductContext);
 
   return (
     <div className={`${styles.cart_wrapper}`}>
@@ -43,7 +43,7 @@ const Cart = () => {
                             <span>Blue</span>
 
                             <div className={`${styles.delete_cart}`}>
-                              <button>
+                              <button onClick={()=>deletCartSingleItemHandler(index)}>
                                 <TiDeleteOutline />
                               </button>
                             </div>

@@ -8,7 +8,8 @@ import styles from "./AboutDelivery.module.css";
 const AboutDelivery = () => {
   return (
     <div className={styles.about_delivery_container}>
-      <div className={`${styles.flex} ${styles.about_delivery_inner_content}`}>
+      <div data-aos="flip-down"  className={`${styles.flex} ${styles.about_delivery_inner_content}`}>
+
         <div className={`${styles.flex} ${styles.single_about_delivery}`}>
           <div className={styles.icon}>
             <span>
@@ -23,6 +24,7 @@ const AboutDelivery = () => {
             </p>
           </div>
         </div>
+
         <div className={`${styles.flex} ${styles.single_about_delivery}`}>
           <div className={styles.icon}>
             <span>
@@ -36,7 +38,8 @@ const AboutDelivery = () => {
             </p>
           </div>
         </div>
-        <div className={`${styles.flex} ${styles.single_about_delivery}`}>
+
+        <div  className={`${styles.flex} ${styles.single_about_delivery}`}>
           <div className={styles.icon}>
             <span>
               <IoDocumentsSharp />

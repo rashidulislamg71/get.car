@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 
 import { Link, NavLink } from "react-router-dom";
 import { PiShoppingCartThin } from "react-icons/pi";
@@ -9,6 +9,7 @@ import styles from "./NavBar.module.css";
 // react icons
 import { IoMdMenu } from "react-icons/io";
 import { VscChromeClose } from "react-icons/vsc";
+import { ProductContext } from "../../GlobalContextAPI/GlobalContext";
 
 const NavBar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -22,9 +23,12 @@ const NavBar = () => {
     setOpenMenu(false);
   };
 
+  const { countCartedItem, cart } = useContext(ProductContext);
+
   return (
     <header>
       <div className={`${styles.flex} ${styles.navbar_container}`}>
+        
         <div className={`${styles.logo}`}>
           <NavLink to="/" onClick={closeMenuHandeling}>
             <img src={Logo} alt="Get.Car" />
@@ -95,7 +99,8 @@ const NavBar = () => {
             className={`${styles.cart_buy} ${styles.flex}`}
           >
             <Link to="/cart" className={`${styles.cart} `}>
-              <PiShoppingCartThin /> <span>0</span>
+              <PiShoppingCartThin />{" "}
+              <span> {cart.length ? countCartedItem() : 0} </span>
             </Link>
             <Link onClick={closeMenuHandeling}>
               <button className={styles.buyNowBtn}>Buy Now</button>

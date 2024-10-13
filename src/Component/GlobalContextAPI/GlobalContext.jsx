@@ -151,7 +151,7 @@ export const ProductProvider = ({ children }) => {
   const [selectedProduct, setSelectedProduct] = useState([]);
   const [cart, setCart] = useState([]);
   const [seeDetails, setSeeDetail] = useState([null]);
-  console.log(cart)
+  
 
   const bmw = [
     {
@@ -671,12 +671,24 @@ const toyota = [
  
 ];
 
+const countCartedItem = ()=>{
+    return cart.length;
+}
+
 const cartCarHandler = (product)=>{
   setCart([...cart, product]);
 };
 
+const deletCartSingleItemHandler = (itemIndex)=>{
+  console.log(itemIndex)
+  const updatedCart = cart.filter((car, index) => index !== itemIndex);
+  setCart(updatedCart);
+}
+
+
+
 const seeDeatilsHandler = (product)=>{
-  // setSeeDetail(product)
+  setSeeDetail(product)
 };
 
 
@@ -687,10 +699,13 @@ const seeDeatilsHandler = (product)=>{
     bmw,
     rolls_royce,
     toyota,
+    countCartedItem,
     cartCarHandler,
     seeDeatilsHandler,
     cart,
     seeDetails,
+
+    deletCartSingleItemHandler,
   };
 
   return (
