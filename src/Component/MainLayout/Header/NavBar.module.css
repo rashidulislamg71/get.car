@@ -15,9 +15,6 @@ header {
 .navbar_container {
   border-top: 1px solid #a5a3a3e1;
   padding: 10px 80px;
-  position: fixed;
-  width: 100%;
-  top: 49px;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   z-index: 100;
