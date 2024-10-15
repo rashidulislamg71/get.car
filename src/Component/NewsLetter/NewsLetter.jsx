@@ -5,7 +5,7 @@ import newLetterImg from "../../assets/images/NewsLetter_img//NewLetter_img.png"
 const NewsLetter = () => {
   return (
     <div className={`${styles.newLetter_container}`}>
-      <div className={`${styles.newLetter_inner_content} ${styles.flex}`}>
+      <div className={` ${styles.flex} ${styles.newLetter_inner_content} `}>
         <div className={styles.newLetter_text_subscrib}>
           <h4>Right into Mailbox</h4>
           <h1>

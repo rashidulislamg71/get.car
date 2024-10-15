@@ -27,6 +27,7 @@
 .homeAbout_text h2 {
   max-width: 450px;
   font-size: 35px;
+  text-align: left;
 }
 .homeAbout_text p {
   margin: 34px 0px 25px 0px;

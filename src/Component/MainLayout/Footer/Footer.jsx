@@ -176,6 +176,8 @@ const Footer = () => {
           </div>
         </div>
 
+        <hr />
+
         <div className={`${styles.footer_bottom}`}>
           <h3>Download Mobile App</h3>
           <div className={`${styles.download_btn} ${styles.flex} ` }>

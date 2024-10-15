@@ -66,6 +66,11 @@
     justify-content: center;
   }
 
+  .newLetter_text_subscrib {
+    color: #fff;
+    margin-top: 15px;
+  }
+
   .newLetter_text_subscrib h1 {
     font-size: 30px;
   }

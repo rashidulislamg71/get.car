@@ -22,7 +22,7 @@ const CarDetails = () => {
 
                 </div> */}
               
-                
+              
             </div>
         </div>
     );

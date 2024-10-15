@@ -8,6 +8,7 @@
 
 .about_delivery_inner_content {
   padding: 40px;
+  overflow: hidden;
 }
 .single_about_delivery {
   padding: 10px;
