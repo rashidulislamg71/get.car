@@ -2,6 +2,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useContext, useEffect, useState } from "react";
 import { ProductContext } from "../GlobalContextAPI/GlobalContext";
+import { RiStarSFill } from "react-icons/ri";
 
 import styles from "./Cars.module.css";
 
@@ -13,7 +14,7 @@ const Cars = () => {
     selectedProduct,
     setSelectedProduct,
     cartCarHandler,
-    seeDeatilsHandler,
+    productDeatilsHandler,
   } = useContext(ProductContext);
 
   const [showRolls, setShowRolls] = useState(false);
@@ -63,8 +64,20 @@ const Cars = () => {
           <li key={product.id}>
             <img src={product.img[0]} alt={product.name} />
             <div className={styles.cart_details}>
-              <h2>{product.name}</h2>
+              <div>
+<h2 className={styles.flex}>{product.name}</h2>
+              <p className={`${styles.ratings}`}>
+              <span>
+                <RiStarSFill />
+                <RiStarSFill />
+                <RiStarSFill />
+              </span>
+              <b>{product.ratings}</b>
+              </p>
+              </div>
+              
               <p className={styles.price}> ${product.price}</p>
+
               <div className={`${styles.flex} ${styles.cart_seeDetails_Btn}`}>
                 <button
                   onClick={() => cartCarHandler(product)}
@@ -73,7 +86,7 @@ const Cars = () => {
                   Add To Cart
                 </button>
                 <button
-                  onClick={() => seeDeatilsHandler(product)}
+                  onClick={() => productDeatilsHandler(product)}
                   className={styles.seeDetails}
                 >
                   Details

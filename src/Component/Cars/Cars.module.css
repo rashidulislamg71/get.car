@@ -75,6 +75,22 @@
 .cart_details h2:hover{
     color: tomato;
 }
+
+.cart_details .ratings{
+  justify-content: start;
+  gap: 5px;
+}
+.cart_details .ratings span{
+    color: rgb(230, 171, 8);
+    font-size: 18px;
+}
+.cart_details .ratings b{
+    color: rgb(114, 111, 111);
+    font-size: 15px;
+    
+    
+}
+
 .cart_details .price{
    color: rgb(6, 145, 6);
    font-weight: bold;

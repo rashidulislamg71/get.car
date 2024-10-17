@@ -150,8 +150,8 @@ export const ProductContext = createContext();
 export const ProductProvider = ({ children }) => {
   const [selectedProduct, setSelectedProduct] = useState([]);
   const [cart, setCart] = useState([]);
-  const [seeDetails, setSeeDetail] = useState([null]);
-  
+  const [productDetails, setProductDetail] = useState([null]);
+  console.log(productDetails);
 
   const bmw = [
     {
@@ -687,8 +687,8 @@ const deletCartSingleItemHandler = (itemIndex)=>{
 
 
 
-const seeDeatilsHandler = (product)=>{
-  setSeeDetail(product)
+const productDeatilsHandler = (product)=>{
+  setProductDetail(product)
 };
 
 
@@ -701,9 +701,9 @@ const seeDeatilsHandler = (product)=>{
     toyota,
     countCartedItem,
     cartCarHandler,
-    seeDeatilsHandler,
+    productDeatilsHandler,
     cart,
-    seeDetails,
+    productDetails,
 
     deletCartSingleItemHandler,
   };
