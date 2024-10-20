@@ -34,7 +34,7 @@ const AboutDelivery = () => {
           <div className={styles.text}>
             <h3>Flexible Delivery:</h3>
             <p>
-            Options for scheduled deliveries to match the customer’s convenience.
+            Options for scheduled deliveries are available to match the customer’s preferred time and convenience.
             </p>
           </div>
         </div>

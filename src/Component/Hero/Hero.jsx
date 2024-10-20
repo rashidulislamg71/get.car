@@ -1,8 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Hero.module.css";
-
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -27,6 +26,7 @@ import banner_7 from "../../assets/images/car_banner/banner_7.png";
 import banner_8 from "../../assets/images/car_banner/banner_8.png";
 import banner_9 from "../../assets/images/car_banner/banner_9.png";
 import banner_10 from "../../assets/images/car_banner/banner_10.png";
+
 
 const Hero = () => {
   return (
@@ -55,11 +55,11 @@ const Hero = () => {
                 <i>Staring Bid from</i>
                 <h3>$2400.0</h3>
               </div>
-              <div className={`${styles.hero_btns} ${styles.flex}`}>
-                <button className={styles.explore_more_btn}>
+              <div  data-aos="fade-up" className={`${styles.hero_btns} ${styles.flex}`}>
+                <button   className={styles.explore_more_btn}>
                   Explore More
                 </button>
-                <button className={styles.get_now_btn}>Get Now</button>
+                <button  className={styles.get_now_btn}>Get Now</button>
               </div>
             </div>
           </div>

@@ -11,10 +11,8 @@
 
 .testimonials_inner_content {
   background: #fff;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   padding: 100px 80px;
+  overflow: hidden;
 }
 
 .testimonials_titles {
@@ -26,9 +24,8 @@
   color: rgb(255, 40, 0);
 }
 
-.testimonials_titles h1 {
+.testimonials_titles h1{
   font-size: 33px;
-  line-height: 40px;
 }
 
 .testimonials_titles button {

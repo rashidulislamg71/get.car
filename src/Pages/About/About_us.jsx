@@ -3,7 +3,7 @@ import styles from "./About_us.module.css";
 import team_work from "../../assets/images/About_us_img/about_us_team_work.jpg";
 import TeamWork from "../../Component/TeamWork/TeamWork";
 
-import Investors from "../../Component/Invster/Investors";
+import Investors from "../../Component/Invstors/Investors";
 import Testimonials from "../../Component/Testimonials/Testimonials";
 
 

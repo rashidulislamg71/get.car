@@ -12,10 +12,11 @@
   text-align: center;
   color: #fff;
   padding:15px;
+  overflow: hidden;
 }
 .membershipOffer_content h1 {
   font-size: 45px;
-  line-height: 50px;
+  margin-top: -10px;
 }
 .membershipOffer_content h1 span {
   color: tomato;

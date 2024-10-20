@@ -1,3 +1,6 @@
+
+import { Link } from "react-router-dom";
+
 import styles from "./Login_SignUp.module.css";
 
 const Login = () => {
@@ -15,7 +18,7 @@ const Login = () => {
             <h2>Welcome back</h2>
             <small>Login to the Dashboard</small>
             <p>
-              Free Registration a New Account <button>SignUp</button>
+              Free Registration a New Account <Link to="/sign-up"> <button>SignUp</button></Link>
             </p>
           </div>
           <form className={styles.form}>

@@ -14,12 +14,16 @@
 }
 
 .header_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 10px 50px;
   justify-content: space-around;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   z-index: 100;
- 
+
 }
 
 .header_contact{

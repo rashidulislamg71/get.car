@@ -21,15 +21,13 @@ const Testimonials = () => {
 
   return (
     <div className="testimonials_container">
-     
-
       <div className="flex testimonials_inner_content">
         <div className="testimonials_titles">
-          <h4>Find out Now</h4>
+          <h4 data-aos="fade-down" >Find out Now</h4>
           <h1>
             User Testimonials: <br /> What Our Customers Are Saying
           </h1>
-          <button>Buy Now</button>
+          <button data-aos="fade-left" >Buy Now</button>
         </div>
 
         <div className="testimonials_boxs slider-container">

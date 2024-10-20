@@ -10,7 +10,7 @@ const NewOffers = () => {
       <div className={`${styles.homeNewOffers_container}`}>
         <div className={`${styles.flex} ${styles.homeNewOffers_inner_content}`}>
             <div className={`${styles.homeNewOffers_text}`}>
-                <h4>New Offers</h4>
+                <h4 data-aos="fade-down">New Offers</h4>
                 <h1>Exciting & Exclusive Auction Lot – Cars Ready for Bidding!</h1>
                 <p>Get ready to bid for the car of your dreams and experience the thrill of owning
                 a masterpiece on wheels! Find out bellow how to bid.</p>
@@ -26,12 +26,12 @@ const NewOffers = () => {
                 </ul>
 
                 <div className={`${styles.flex} ${styles.offerBtns}`}>
-                    <button className={` ${styles.offer_submit_btn} ${styles.offer_btn}`}>Submit Entry</button>
-                    <button className={`${styles.offer_view_slot_btn} ${styles.offer_btn}`}>View Slot</button>
+                    <button data-aos="fade-up" className={` ${styles.offer_submit_btn} ${styles.offer_btn}`}>Submit Entry</button>
+                    <button data-aos="fade-up" className={`${styles.offer_view_slot_btn} ${styles.offer_btn}`}>View Slot</button>
                 </div>
             </div>
-            <div className={`${styles.homeNewOffers_img}`}>
-                <img src={offer_car} alt="Car" />
+            <div className={`${styles.homeNewOffers_img}`} data-aos="fade-left">
+                <img  src={offer_car} alt="Car" />
             </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const MembershipOffer = () => {
             This discount is vaild until December 2024. Terms and conditions
             apply.
           </p>
-          <button className={styles.take_memebershipBtn}>
+          <button data-aos="fade-up" className={styles.take_memebershipBtn}>
             Take Membership
           </button>
         </div>

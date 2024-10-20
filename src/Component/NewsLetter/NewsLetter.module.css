@@ -14,6 +14,7 @@
 
 .newLetter_inner_content {
   padding: 70px 0px 0px 100px;
+ 
 }
 
 .newLetter_text_subscrib {
@@ -24,7 +25,6 @@
   color: #e4dede;
 }
 .newLetter_text_subscrib h1 {
-  line-height: 35px;
   margin: 0px 0px 30px 0px;
 }
 

@@ -30,7 +30,7 @@
     padding: 1px 10px;
     width: 120px;
     height: auto;
-    filter: drop-shadow(2px 2px 10px rgba(7, 17, 15, 0.822));
+    filter: drop-shadow(2px 2px 10px rgba(7, 17, 15, 0.63));
    transition: all .3s ease;
 }
 

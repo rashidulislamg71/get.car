@@ -20,7 +20,7 @@
 }
 
 .how_it_work_title{
-
+    overflow: hidden;
 }
 .how_it_work_title h4{
     color: tomato;
@@ -59,7 +59,7 @@
 
 
 .how_it_work_text h3{
-    margin: -10px 0px 10px;
+    margin: 0px 0px 10px;
     font-size: 24px;
     color: #000000ea;
     font-weight: 800;

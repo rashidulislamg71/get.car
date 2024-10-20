@@ -7,7 +7,7 @@ const NewsLetter = () => {
     <div className={`${styles.newLetter_container}`}>
       <div className={` ${styles.flex} ${styles.newLetter_inner_content} `}>
         <div className={styles.newLetter_text_subscrib}>
-          <h4>Right into Mailbox</h4>
+          <h4 data-aos="fade-down">Right into Mailbox</h4>
           <h1>
             Get the news by subscribing to our <br /> newsletter. Tips directly!
           </h1>
@@ -18,12 +18,12 @@ const NewsLetter = () => {
               type="email"
               placeholder="Enter you email."
             />
-            <button>Submit</button>
+            <button data-aos="fade-right" >Submit</button>
           </div>
         </div>
 
         <div className={styles.newLetter_img}>
-          <img src={newLetterImg} alt="car" />
+          <img data-aos="fade-left" src={newLetterImg} alt="car" />
         </div>
       </div>
     </div>

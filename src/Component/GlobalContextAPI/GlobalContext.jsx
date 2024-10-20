@@ -671,6 +671,111 @@ const toyota = [
  
 ];
 
+
+
+// News 
+const newsCategories = {
+  newLaunches: [
+      {
+          img: "path/to/electric-suv.jpg",
+          title: "Electric SUV Launch",
+          date: "October 1, 2024",
+          shortDetails: "A new electric SUV has been launched, promising an impressive range of 350 miles on a single charge.",
+          fullDetails: "The automotive industry has been buzzing with excitement as the new electric SUV hits the market. This model boasts a range of 350 miles on a single charge, making it a strong contender in the electric vehicle market. The SUV is equipped with state-of-the-art technology, including a smart infotainment system and advanced safety features, ensuring a comfortable and secure driving experience."
+      },
+      {
+          img: "path/to/luxury-sedan.jpg",
+          title: "Luxury Sedan Debut",
+          date: "October 5, 2024",
+          shortDetails: "The latest luxury sedan model combines advanced safety features with cutting-edge technology.",
+          fullDetails: "The luxury sedan, which debuted on October 5, 2024, combines elegance with performance. Its interior is crafted with premium materials, offering a plush ride for both drivers and passengers. Equipped with the latest safety technologies, including lane assist and adaptive cruise control, this sedan is designed to provide a seamless driving experience. Its powerful engine options ensure that it delivers on performance without compromising on comfort."
+      },
+      {
+          img: "path/to/hybrid-hatchback.jpg",
+          title: "Hybrid Hatchback Release",
+          date: "October 10, 2024",
+          shortDetails: "A hybrid hatchback model has been introduced, featuring an eco-friendly engine and stylish design.",
+          fullDetails: "A new hybrid hatchback has been released, targeting environmentally conscious consumers. This model features an eco-friendly engine that not only reduces emissions but also offers excellent fuel efficiency. Its compact size and stylish design make it ideal for urban driving. Additionally, the hatchback includes modern tech features, such as smartphone connectivity and a rear-view camera, enhancing both convenience and safety for everyday use."
+      }
+  ],
+  
+  carReviews: [
+      {
+          img: "path/to/model-y-review.jpg",
+          title: "Model Y Review",
+          date: "September 25, 2024",
+          shortDetails: "The Model Y impresses with its spacious interior and cutting-edge technology.",
+          fullDetails: "The Model Y has received rave reviews for its spacious interior and innovative technology. With ample cargo space and a panoramic glass roof, it provides a sense of openness and comfort. The driving experience is enhanced by its responsive handling and smooth acceleration, making it a pleasure to drive. The integration of advanced driver-assistance systems further adds to its appeal, ensuring safety without sacrificing performance."
+      },
+      {
+          img: "path/to/top-suvs.jpg",
+          title: "Top SUVs of 2024",
+          date: "September 30, 2024",
+          shortDetails: "A roundup of the best SUVs released this year, focusing on performance and value.",
+          fullDetails: "As the SUV market continues to grow, this year’s top models have set a new standard. This review highlights several SUVs that excel in performance, safety, and value. From family-friendly features to off-road capabilities, these vehicles cater to a variety of needs. The review also discusses their fuel efficiency, interior comfort, and tech amenities, helping consumers make informed choices in this competitive segment."
+      },
+      {
+          img: "path/to/budget-friendly-cars.jpg",
+          title: "Budget-Friendly Cars",
+          date: "October 2, 2024",
+          shortDetails: "A review of affordable cars that don’t compromise on features.",
+          fullDetails: "For those on a budget, this review showcases several affordable cars that don’t compromise on essential features. These models are praised for their reliability, fuel efficiency, and modern amenities. The review emphasizes the importance of value for money, highlighting how consumers can find cars that meet their needs without overspending. Practicality and safety are key focus areas in this roundup, making it a valuable resource for budget-conscious buyers."
+      }
+  ],
+
+  autoTechnology: [
+      {
+          img: "path/to/ai-automotive.jpg",
+          title: "AI in Automotive",
+          date: "September 15, 2024",
+          shortDetails: "AI technology is revolutionizing vehicle safety and user experience.",
+          fullDetails: "Artificial intelligence is increasingly being integrated into vehicles, transforming both safety and user experience. AI systems can now analyze driving patterns, providing real-time feedback to improve safety. Features like adaptive cruise control and lane-keeping assist are becoming standard, allowing for a more relaxed driving experience. This technology also extends to user interfaces, making interactions more intuitive and responsive."
+      },
+      {
+          img: "path/to/ev-charging.jpg",
+          title: "EV Charging Innovations",
+          date: "September 18, 2024",
+          shortDetails: "New charging solutions are making electric vehicle ownership more convenient.",
+          fullDetails: "As the number of electric vehicles on the road increases, innovations in charging technology are essential. New fast-charging solutions are being developed, reducing charging times significantly and increasing convenience for EV owners. Wireless charging technology is also on the rise, allowing drivers to charge their vehicles without plugging in, making it easier to keep electric cars charged during daily commutes."
+      },
+      {
+          img: "path/to/smart-vehicle-features.jpg",
+          title: "Smart Vehicle Features",
+          date: "September 22, 2024",
+          shortDetails: "The latest vehicles come equipped with smart technology for enhanced driving.",
+          fullDetails: "Modern vehicles are now equipped with a range of smart features designed to enhance the driving experience. From advanced navigation systems to real-time traffic updates, these technologies provide drivers with critical information at their fingertips. Features like voice-activated controls and smartphone integration further bridge the gap between technology and driving, allowing for a more seamless and enjoyable experience on the road."
+      }
+  ],
+
+  upcomingCars: [
+      {
+          img: "path/to/2025-sports-car.jpg",
+          title: "2025 Sports Car Teaser",
+          date: "October 5, 2024",
+          shortDetails: "A glimpse of the highly anticipated 2025 sports car model.",
+          fullDetails: "The excitement surrounding the upcoming 2025 sports car model is palpable. Initial teasers suggest a sleek design paired with powerful performance capabilities. This model aims to compete with established sports cars by combining advanced aerodynamics with cutting-edge technology. The manufacturer promises thrilling driving dynamics and a host of performance features that enthusiasts will love."
+      },
+      {
+          img: "path/to/next-gen-ev-suvs.jpg",
+          title: "Next-Gen Electric SUVs",
+          date: "October 7, 2024",
+          shortDetails: "Upcoming electric SUVs promise improved range and performance.",
+          fullDetails: "Upcoming electric SUVs are poised to revolutionize the market with enhanced range and performance. These models are being developed with the latest battery technology, promising to push the limits of what electric vehicles can achieve. With spacious interiors and advanced safety features, these SUVs cater to families and adventure-seekers alike, making them an attractive choice for eco-conscious consumers."
+      },
+      {
+          img: "path/to/2025-family-cars.jpg",
+          title: "2025 Family Cars",
+          date: "October 12, 2024",
+          shortDetails: "New family-friendly cars set to launch next year focus on safety and space.",
+          fullDetails: "As family needs evolve, the new 2025 family cars are designed with safety and space in mind. Upcoming models feature enhanced safety technologies, spacious interiors, and versatile seating options. Manufacturers are focusing on comfort and convenience, ensuring that these cars can handle everything from daily commutes to weekend getaways. This category is perfect for families looking for reliable and practical vehicles that prioritize both safety and style."
+      }
+  ]
+};
+
+// Example of accessing a specific news item
+console.log(newsCategories.newLaunches[0].title); // Output: Electric SUV Launch
+
+
 const countCartedItem = ()=>{
     return cart.length;
 }

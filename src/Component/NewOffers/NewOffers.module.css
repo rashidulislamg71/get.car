@@ -8,6 +8,7 @@
 
 .homeNewOffers_container {
   background: rgb(242, 242, 242);
+  overflow: hidden;
 }
 
 .homeNewOffers_inner_content {
@@ -26,7 +27,7 @@
   font-size: 16px;
 }
 .homeNewOffers_text ul li {
-  margin: 0px 0px 0px 40px;
+  margin: 0px 0px 0px 20px;
   font-size: 15px;
 }
 
@@ -34,17 +35,18 @@
   justify-content: start;
   margin: 20px 0px 0px 0px;
   outline: none;
+  overflow: hidden;
 }
 
 .offer_btn {
   cursor: pointer;
-  transition: all 0.7s ease;
   padding: 5px 20px;
   font-size: 17px;
   color: #fff;
   border-radius: 2px;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
   box-shadow: rgba(0, 0, 0, 0.507) 0px 4px 12px;
+  
 }
 
 .offerBtns .offer_submit_btn {
@@ -67,6 +69,10 @@
   background: none;
   border: 1px solid rgba(128, 128, 128, 0.788);
   color: rgb(36, 36, 33);
+}
+
+.offerBtns .offer_view_slot_btn:active{
+  transform: scale(1.1);
 }
 
 .homeNewOffers_img {

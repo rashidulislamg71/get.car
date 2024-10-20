@@ -14,13 +14,13 @@ const HowItWork = () => {
       <div className={`${styles.how_it_work_container}`}>
         <div className={`${styles.how_it_work_inner_content} `}>
           <div className={styles.how_it_work_title}>
-            <h4>Start Now</h4>
-            <h2>How it Works</h2>
+            <h4 data-aos="fade-down">Start Now</h4>
+            <h2 data-aos="fade-up">How it Works</h2>
           </div>
           <div className={`${styles.flex} ${styles.how_it_works}`}>
             <div className={`${styles.flex} ${styles.single_how_it_work}`}>
               <div className={` ${styles.flex} ${styles.how_it_work_icon}`}>
-                <span><MdOutlineSwitchAccount /></span>
+                <span  data-aos="flip-left"><MdOutlineSwitchAccount /></span>
               </div>
               <div className={styles.how_it_work_text}>
                 <h3>Registertion and Account</h3>
@@ -29,7 +29,7 @@ const HowItWork = () => {
             </div>
             <div className={`${styles.flex} ${styles.single_how_it_work}`}>
               <div className={` ${styles.flex} ${styles.car_icon} ${styles.how_it_work_icon}`}>
-                <span><IoCarSportOutline /> </span>
+                <span data-aos="flip-down" ><IoCarSportOutline /> </span>
                
               </div>
               <div className={styles.how_it_work_text}>
@@ -39,7 +39,7 @@ const HowItWork = () => {
             </div>
             <div className={`${styles.flex} ${styles.single_how_it_work}`}>
               <div className={` ${styles.flex} ${styles.how_it_work_icon}`}>
-                <span><img src={bid_img} alt="" /></span>
+                <span data-aos="flip-right"><img src={bid_img} alt="" /></span>
               </div>
               <div className={styles.how_it_work_text}>
                 <h3>Place Bids and Monitor</h3>
