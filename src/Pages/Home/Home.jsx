@@ -8,6 +8,7 @@ import MembershipOffer from '../../Component/MembershipOffer/MembershipOffer';
 import Testimonials from '../../Component/Testimonials/Testimonials';
 import NewsLetter from '../../Component/NewsLetter/NewsLetter';
 import Cars from '../../Component/Cars/Cars';
+import OfferMarquee from '../../Component/OfferMarquee/OfferMarquee';
 
 const Home = () => {
     return (

@@ -67,7 +67,6 @@
   }
 
   .newLetter_text_subscrib {
-    color: #fff;
     margin-top: 15px;
   }
 
@@ -76,5 +75,15 @@
   }
   .newLetter_img {
     display: none;
+  }
+}
+
+@media screen and (max-width:480px){
+
+  .newLetter_text_subscrib {
+    margin-top: 0px;
+  }  
+  .newLetter_text_subscrib h1 {
+    font-size: 25px;
   }
 }

@@ -3,7 +3,7 @@
 
 
 .cart_wrapper {
-  /* max-height: 600px; */
+  padding-top: 100px;
 }
 
 .flex {
@@ -31,12 +31,9 @@
 .emty_cart_container{
   flex-direction: column;
   align-items: center;
-  line-height: 20px;
+  line-height: 25px;
 }
-.emty_cart_container img{}
-.emty_cart_container h1{
 
-}
 .emty_cart_container button{
   border: none;
   background: transparent;
@@ -260,7 +257,7 @@ h1.cart_main_title {
     text-align: center;
   }
 
-  h2 {
+  .order_summary_container h2 {
     text-align: center;
   }
   .cart_container {

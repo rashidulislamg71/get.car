@@ -7,6 +7,7 @@
 
 .hero_single_slider {
   position: relative;
+  padding-top: 100px;
 }
 
 .hero_text {
@@ -17,7 +18,6 @@
   z-index: 100;
   color: #fff;
   max-width: 700px;
-  /* height: inherit; */
   overflow: hidden;
 }
 .hero_text h2 {
@@ -74,8 +74,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-
-  .slider_img img{
+  .slider_img img {
     max-width: 800px;
     height: auto;
   }
@@ -123,6 +122,9 @@
     height: auto;
   }
   .hero_text {
+    top: 70%;
+    left: 30%;
+    transform: translate3d(-30%, -70%, 0);
     max-width: 100%;
   }
 

@@ -43,7 +43,11 @@ const Cart = () => {
                             <span>Blue</span>
 
                             <div className={`${styles.delete_cart}`}>
-                              <button onClick={()=>deletCartSingleItemHandler(index)}>
+                              <button
+                                onClick={() =>
+                                  deletCartSingleItemHandler(index)
+                                }
+                              >
                                 <TiDeleteOutline />
                               </button>
                             </div>

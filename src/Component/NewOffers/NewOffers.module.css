@@ -29,6 +29,7 @@
 .homeNewOffers_text ul li {
   margin: 0px 0px 0px 20px;
   font-size: 15px;
+  list-style: square;
 }
 
 .homeNewOffers_text .offerBtns {
@@ -79,9 +80,10 @@
   flex: 1;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
   .homeNewOffers_inner_content {
-    padding: 60px 20px;
+    padding: 60px 15px;
+    flex-direction: column;
   }
 
   .homeNewOffers_img img{

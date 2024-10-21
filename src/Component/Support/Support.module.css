@@ -1,6 +1,7 @@
 
 .page_container{
   position: relative;
+  padding-top: 100px;
 }
 
   /* Banner section */
@@ -145,16 +146,18 @@
 
   @media screen and (max-width:480px) {
     .support_details_info{
-      padding: 60px 0px;
+      padding: 0px;
     }
 
     .support_container {
+      flex-direction: column;
       justify-content: center;
-      padding: 40px 0px;
+      padding: 40px 0px 0px 0px;
     }
 
 
     .contact_info_container {
+      width: 100%;
       border-radius: 10px;
     }
   }

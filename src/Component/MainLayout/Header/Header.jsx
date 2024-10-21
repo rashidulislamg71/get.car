@@ -5,10 +5,10 @@ import {
   MdOutlineMarkEmailRead,
   MdOutlinePhone,
 } from "react-icons/md";
-import { CiFlag1 } from "react-icons/ci";
-import { IoIosArrowDown } from "react-icons/io";
+import { FaUserTie } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
+import OfferMarquee from "../../OfferMarquee/OfferMarquee";
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -23,7 +23,6 @@ const Header = () => {
             <a href="tel:+4733378901">+47 333 78 901</a>
           </p>
           <p className={`${styles.flex} ${styles.header_contact}`}>
-      
             <span>
               <MdOutlineMarkEmailRead />
             </span>
@@ -31,35 +30,20 @@ const Header = () => {
           </p>
         </div>
 
-        <div className={`${styles.flex} ${styles.header_search}`}>
-          <input id={styles.search} type="search" placeholder="Search More Cars" />{" "}
-          <span>
-            <FiSearch />
-          </span>
-        </div>
+        <OfferMarquee />
 
+        <div className={`${styles.search_icon}`}></div>
+          <span><FiSearch /></span>
         <div
-          className={`${styles.flex} ${styles.header_languag_account_container}`}
+          className={`${styles.flex} ${styles.header_user_account_container}`}
         >
-          <div className={`${styles.flex} ${styles.select_language}`}>
-            <span>
-              <CiFlag1 />
-            </span>
-            <p>EN</p>
-            <span className={styles.lang_arrow}>
-              <IoIosArrowDown />
-            </span>
-          </div>
-
-          <div className={`${styles.flex} ${styles.header_account}`}>
-            <ul className={`${styles.flex}`}>
-              <li>
-                <NavLink to="/log-in">Log In</NavLink>
-              </li>
-              <li>
-                <NavLink to="/sign-up">Sign Up</NavLink>
-              </li>
-            </ul>
+          <div className={`${styles.flex} ${styles.header_user_account}`}>
+            <NavLink to="/log-in">
+              <span>
+                {" "}
+                <FaUserTie />
+              </span>
+            </NavLink>
           </div>
         </div>
       </div>
