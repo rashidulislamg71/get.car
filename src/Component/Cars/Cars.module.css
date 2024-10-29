@@ -1,3 +1,5 @@
+
+
 .cars_container {
   padding: 100px 50px 50px 50px;
 }
@@ -37,6 +39,10 @@
 .carsBtn button:hover {
   transform: translateY(-5px);
   color: teal;
+}
+
+.cars_content{
+  padding-bottom: 30px;
 }
 
 .cars_content li {

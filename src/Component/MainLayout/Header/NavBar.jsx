@@ -27,8 +27,9 @@ const NavBar = () => {
 
   return (
     <header>
-      <div className={`${styles.flex} ${styles.navbar_container}`}>
-        
+      <div
+        className={`${styles.flex} ${styles.navbar_container} `}
+      >
         <div className={`${styles.logo}`}>
           <NavLink to="/" onClick={closeMenuHandeling}>
             <img src={Logo} alt="Get.Car" />

@@ -61,21 +61,21 @@ const Cars = () => {
 
       <div className={`${styles.flex} ${styles.cars_content}`}>
         {selectedProduct.map((product) => (
-          <li key={product.id}>
+          <li data-aos="zoom-in" key={product.id}>
             <img src={product.img[0]} alt={product.name} />
             <div className={styles.cart_details}>
               <div>
-<h2 className={styles.flex}>{product.name}</h2>
-              <p className={`${styles.ratings}`}>
-              <span>
-                <RiStarSFill />
-                <RiStarSFill />
-                <RiStarSFill />
-              </span>
-              <b>{product.ratings}</b>
-              </p>
+                <h2 className={styles.flex}>{product.name}</h2>
+                <p className={`${styles.ratings}`}>
+                  <span>
+                    <RiStarSFill />
+                    <RiStarSFill />
+                    <RiStarSFill />
+                  </span>
+                  <b>{product.ratings}</b>
+                </p>
               </div>
-              
+
               <p className={styles.price}> ${product.price}</p>
 
               <div className={`${styles.flex} ${styles.cart_seeDetails_Btn}`}>

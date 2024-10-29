@@ -151,7 +151,8 @@ export const ProductProvider = ({ children }) => {
   const [selectedProduct, setSelectedProduct] = useState([]);
   const [cart, setCart] = useState([]);
   const [productDetails, setProductDetail] = useState([null]);
-  console.log(productDetails);
+  const [showSearchBar, setShowSearchBar] = useState(false);
+
 
   const bmw = [
     {
@@ -773,7 +774,7 @@ const newsCategories = {
 };
 
 // Example of accessing a specific news item
-console.log(newsCategories.newLaunches[0].title); // Output: Electric SUV Launch
+// console.log(newsCategories.newLaunches[0].title); 
 
 
 const countCartedItem = ()=>{
@@ -797,6 +798,19 @@ const productDeatilsHandler = (product)=>{
 };
 
 
+const toggleSearchBar = () =>{
+  setShowSearchBar(!showSearchBar);
+};
+
+
+  const handleScroll = () => {
+    if (showSearchBar) {
+      setShowSearchBar(false);
+    }
+  };
+
+
+
 
   const values = {
     selectedProduct,
@@ -809,8 +823,11 @@ const productDeatilsHandler = (product)=>{
     productDeatilsHandler,
     cart,
     productDetails,
-
     deletCartSingleItemHandler,
+
+    toggleSearchBar,
+    handleScroll,
+    showSearchBar,
   };
 
   return (

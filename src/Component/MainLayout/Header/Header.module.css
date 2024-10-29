@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -19,8 +19,8 @@
   left: 0;
   right: 0;
   padding: 10px 50px;
-  justify-content: space-around;
   background: #fff;
+  justify-content: space-around;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   z-index: 100;
@@ -29,8 +29,6 @@
 .header_contact {
   border-right: 1px solid rgba(0, 0, 0, 0.26);
   padding-right: 15px;
-  gap: 10px;
-  /* z-index: 1000; */
   transition: color 0.3s ease;
 }
 
@@ -47,34 +45,14 @@
 .header_contact a:hover {
   color: rgba(181, 16, 202, 0.863);
 }
-
-.header_search {
-  gap: 0px;
-}
-#search {
-  border: 1px solid gray;
-  padding: 5px 20px;
-  outline: none;
-  color: rgb(88, 86, 86);
-  width: 270px;
-  border-radius: 20px;
-}
-
-input[type="search"]::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-  appearance: none;
-}
-
-#search:focus {
-  border: 1px solid rgb(31, 155, 20);
-}
-
-.header_search span {
+.search_icon span {
+  font-size: 16px;
   display: flex;
-  border-left: 1px solid rgba(128, 128, 128, 0.562);
-  padding: 3px;
   cursor: pointer;
-  margin-left: -29px;
+}
+
+.active_searchBar span {
+  color: rgb(240, 43, 8);
 }
 
 .header_user_account_container {
@@ -93,8 +71,15 @@ input[type="search"]::-webkit-search-cancel-button {
   border-color: tomato;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
+  .header_container {
+    padding: 10px 20px;
+  }
   .header_contact_container {
     display: none;
+  } 
+
+  .flex {
+    gap: 10px;
   }
 }
