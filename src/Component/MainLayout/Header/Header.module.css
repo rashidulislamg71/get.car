@@ -43,20 +43,51 @@
 }
 
 .header_contact a:hover {
-  color: rgba(181, 16, 202, 0.863);
+  color: rgba(37, 85, 75, 0.863);
 }
+
+
+.social_icons{
+  display: flex;
+  gap: 10px;
+}
+
+.social_icons span{
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  padding: 4px;
+}
+
+.social_icons span.linkedin{
+  color: rgb(10, 102, 194);
+}
+.social_icons span.twitter{
+  color: rgb(28, 156, 234);
+}
+.social_icons span.facebook{
+  color: rgb(8, 102, 255);
+}
+
 .search_icon span {
   font-size: 16px;
   display: flex;
   cursor: pointer;
+  border-left: 1px solid rgba(128, 128, 128, 0.418);
+  padding: 6px 20px;
 }
 
 .active_searchBar span {
   color: rgb(240, 43, 8);
+
 }
 
 .header_user_account_container {
   overflow: hidden;
+  gap: 30px;
+}
+
+.header_user_account{
   border: 1px solid;
   border-radius: 20px;
   padding: 2px 5px;
@@ -71,15 +102,21 @@
   border-color: tomato;
 }
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 768px) {
   .header_container {
     padding: 10px 20px;
   }
-  .header_contact_container {
+  .header_contact a p{
     display: none;
-  } 
+  }
 
   .flex {
     gap: 10px;
   }
+
+  .marquee {
+    /* max-width: 40%; */
+  }
+
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Hero from '../../Component/Hero/Hero';
 import HomeAbout from '../../Component/HomeAbout/HomeAbout';
 import HowItWork from '../../Component/HowItWork/HowItWork';
@@ -8,7 +8,7 @@ import MembershipOffer from '../../Component/MembershipOffer/MembershipOffer';
 import Testimonials from '../../Component/Testimonials/Testimonials';
 import NewsLetter from '../../Component/NewsLetter/NewsLetter';
 import Cars from '../../Component/Cars/Cars';
-import OfferMarquee from '../../Component/OfferMarquee/OfferMarquee';
+
 
 const Home = () => {
     return (

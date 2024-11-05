@@ -51,8 +51,8 @@
 }
 
 .hero_btns .explore_more_btn {
-  background: tomato;
-  border: 1px solid tomato;
+  background: rgb(255, 99, 71);
+  border: 1px solid rgb(255, 99, 71);
   transition: all 0.7s ease;
 }
 

@@ -12,10 +12,10 @@
     justify-content: center;
     align-items: center;
     gap: 0px;
-    transform: translateY(-50px);
+    transform: translateY(-100px);
     transition: all .5s ease-in-out;
     position: fixed;
-    top: 125px;
+    top: 117px;
     right: 0px;
     left: 0px;
     z-index: 100;
