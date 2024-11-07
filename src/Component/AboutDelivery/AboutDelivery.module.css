@@ -7,7 +7,7 @@
 }
 
 .about_delivery_inner_content {
-  padding: 20px 40px 40px 40px;
+  padding: 40px;
   overflow: hidden;
 }
 .single_about_delivery {
@@ -20,7 +20,7 @@
   background: #ffff;
 }
 .single_about_delivery .icon span {
-  font-size: 60px;
+  font-size: 100px;
   display: flex;
   padding: 5px;
   border-radius: 10px;

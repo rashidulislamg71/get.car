@@ -24,6 +24,7 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   z-index: 100;
+  border-bottom: 1px solid #a5a3a3e1;
 }
 
 .header_contact {
@@ -59,13 +60,13 @@
   padding: 4px;
 }
 
-.social_icons span.linkedin{
+.social_icons .linkedin{
   color: rgb(10, 102, 194);
 }
-.social_icons span.twitter{
+.social_icons .twitter{
   color: rgb(28, 156, 234);
 }
-.social_icons span.facebook{
+.social_icons .facebook{
   color: rgb(8, 102, 255);
 }
 

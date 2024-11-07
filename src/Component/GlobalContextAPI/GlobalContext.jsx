@@ -773,8 +773,6 @@ const newsCategories = {
   ]
 };
 
-// Example of accessing a specific news item
-// console.log(newsCategories.newLaunches[0].title); 
 
 
 const countCartedItem = ()=>{
@@ -828,6 +826,11 @@ const toggleSearchBar = () =>{
     toggleSearchBar,
     handleScroll,
     showSearchBar,
+    
+//  news 
+    newsCategories
+
+
   };
 
   return (

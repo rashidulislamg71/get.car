@@ -9,10 +9,10 @@ import Login from "../Pages/Login-SignUp/Login";
 import SignUp from "../Pages/Login-SignUp/SignUp";
 import NotFound from "../Pages/PageNotFound/NotFound";
 import Cart from "../Component/Cart/Cart";
-import News from "../Pages/News/News";
 import About_us from "../Pages/About/About_us";
 import SupportPage from "../Pages/SupportPage/SupportPage";
 import ProductsPage from "../Pages/Products/ProductsPage";
+import NewsPage from "../Pages/NewsPage/NewsPage";
 
 
 const router = createBrowserRouter([
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/news",
-                element: <News />
+                element: <NewsPage />
             },
             {
                 path: "/about",
